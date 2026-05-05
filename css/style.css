@@ -8,6 +8,10 @@
 
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     background-color: #080D1F;
     overflow-x: hidden;
