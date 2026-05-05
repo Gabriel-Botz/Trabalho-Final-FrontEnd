@@ -744,8 +744,15 @@ input:focus {
     .footer{padding-top: 30px;}
 }
 
+    .cont { grid-template-columns: repeat(2, 1fr); padding: 15px; gap: 10px; }
+    .item-tec { font-size: 0.8rem; }
 
+    .cx2 { width: calc(100% - 24px); }
 
+    .email { width: 95%; padding: 20px 15px; height: 350px;}
+    .email h2 { font-size: 1.6rem; }
+    .campo { width: 100%; box-sizing: border-box; }
+    .botao-assinar { width: 100%; box-sizing: border-box; }
 
-
-
+    .footer{padding-top: 30px;}
+}

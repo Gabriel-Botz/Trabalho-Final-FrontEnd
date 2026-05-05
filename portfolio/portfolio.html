@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextLab | Portifólio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="portifolio.css">
+</head>
+<body>
+     <nav class="navbar">
+        <div class="logo">
+            <h1 class="titulo">NEXT<span class="subtitulo">LAB</span></h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="sobre/sobre.html">Sobre</a></li>
+                <li><a href="servicos/servicos.html">Serviços</a></li>
+                <li><a href="contato/contato.html">Contato</a></li>
+                <li><a class="cor" href="portfolio/portfolio.html">Portifolio</a></li>
+                <span class="contato" style="color: black;"><a target="_blank" href="">Contato</a></span>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="port-main">
+        <section class="port-header">
+            <p class="p1">PRINCIPAIS PROJETOS</p>
+            <h2 class = "port-titulo"> Trabalhos que <span class="cor"> geram resultado</span></h2>
+            <p class="port-sub">Da ideia à produção. Conheça os produtos digitais que constuímos com nossos clientes.</p>
+
+            <div class="port-filtros">
+                <button class="filtro">Todos</button>
+                <button class="filtro">Web App</button>
+                <button class="filtro">Mobile</button>
+                <button class="filtro">IA</button>
+                <button class="filtro">Cloud</button>
+            </div> 
+        </section>
+
+        <section class="port-destaque">
+            <div class="destaque-info">
+                <span class="proj-ano">2024 - Destaque</span>
+                <span class="proj-cat">Fintech - Startup</span>
+                <h3 class="proj-nome">FlowBank — Plataforma de gestão financeira</h3>
+
+                <p class="proj-desc">Dashboard completo para gestão de fluxo de caixa, conciliação bancária automática e relatórios inteligentes. 
+                    Reduziu em 70% o tempo gasto em tarefas financeiras manuais.</p>
+                
+                <div class="proj-tags">
+                    <span class="tag tag-blue">React</span>
+                    <span class="tag tag-blue">Node.js</span>
+                    <span class="tag tag-cyan">PostgreeSQL</span>
+                    <span class="tad tag-cyan">AWS</span>
+                </div>
+            </div>
+
+              <div class="destaque-metricas">  <!--dashboard de métricas gerado por IA !-->
+                <p class="metricas-titulo">Métricas do projeto</p>
+                <div class="metrica">
+                    <div class="metrica-label"><span>Performance</span><span class="cor">98%</span></div>
+                    <div class="barra"><div class="barra-fill" style="width: 98%; background: #00D9FF;"></div></div>
+                </div>
+                <div class="metrica">
+                    <div class="metrica-label"><span>Uptime</span><span style="color:#00c896">99.9%</span></div>
+                    <div class="barra"><div class="barra-fill" style="width: 99%; background: #00c896;"></div></div>
+                </div>
+                <div class="metrica">
+                    <div class="metrica-label"><span>Satisfação do cliente</span><span style="color:#f5a623">4.9/5</span></div>
+                    <div class="barra"><div class="barra-fill" style="width: 92%; background: #f5a623;"></div></div>
+                </div>
+                <p class="metricas-rodape">entregue em 14 semanas</p>
+            </div>
+        </section>
+
+        <section class="port-grid">
+
+            <div class="cx proj-card">
+                <div class="linha1">MedSync</div>
+                <h4 class="linha2">Prontuário eletrônico</h4>
+                <p class="linha3">Sistema integrado com telemedicina, agendamento e IA para triagem de pacientes.</p>
+                <div class="proj-tags" style="margin-top: 12px">
+                    <span class="tag tag-blue">Next.js</span>
+                    <span class="tag tag-cyan">Python</span>
+                    <span class="tag tag-amber">LGPD</span>
+                </div>
+                <span class="proj-ano" style="margin-top: 12px">Saúde - 2024</span>
+            </div>
+
+            <div class="cx proj-card">
+                <div class="linha1">TrackOps</div>
+                <h4 class="linha2"> Rastreamento em tempo real.</h4>
+                <p class="linha3">Rastreamento de frotas com alertas inteligentes, roteirização automática e integração com ERPs</p>
+
+                <div class="proj-tags" style="margin-top: 12px">
+                    <span class="tag tag-amber">WebSockets</span>
+                    <span class="tag tag-cyan">Maps API</span>
+                    <span class="tag tag-blue">React Native</span>
+                </div>
+                <span class="proj-ano" style="margin-top: 12px">Logística - 2023</span>
+            </div>
+
+            <div class="cx proj-card">
+                <div class="linha1">Cartela</div>
+                <h4 class="linha2">Marketplace de moda</h4>
+                <p class="linha3">Marketplace  B2C com recomendações por IA, checkout otimizado e painel do vendedor. 
+                    +340% de conversão.</p>
+                <div class="proj-tags" style="margin-top: 12px">
+                    <span class="tag tag-pink">Vue.js</span>
+                    <span class="tag tag-blue">Stripe</span>
+                    <span class="tag tag-amber">IA</span>
+                </div>
+                <span class="proj-ano" style="margin-top: 12px">E-commerce - 2023</span>
+            </div>
+
+            <div class="cx proj-card">
+                <div class="linha1">EduCore</div>
+                <h4 class="linha2">LMS corporativo</h4>
+                <p class="linha3">Plataforma de ensino com trilhas personalizadas, gamificação e relatorio de egajamento em tempo real.</p>
+
+                <div class="proj-tags" style="margin-top: 12px">
+                    <span class="tag tag-blue">React</span>
+                    <span class="tag tag-cyan">Firebase</span>
+                    <span class="tag tag-pink">Gamificação</span>
+                </div>
+                <span class="proj-ano" style="margin-top: 12px">Educação - 2022</span>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="cont-foot">
+            <div class="titulo">NEXT<span class="subtitulo">LAB</span></div>
+            <div class="menu-footer">
+                <a href="/sobre/" class="link-menu texto-pequeno">Sobre</a>
+                <a href="/servicos/" class="link-menu texto-pequeno">Serviços</a>
+                <a href="/contato/" class="link-menu texto-pequeno">Contato</a>
+            </div>
+            <p class="saud">&copy; NextLab Agency. SerraTec 2026.01</p>
+        </div>
+    </footer>
+</body>
+</html>
