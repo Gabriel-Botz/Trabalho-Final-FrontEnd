@@ -106,27 +106,30 @@ main{
     align-items: center;
     position: relative;
     overflow: hidden;
+    height: 60px;
 }
 
-
-.contato a{
-    color: #080D1F; 
-    font-weight: 700;
-    text-decoration: none;
-    padding: 23px;
-}
 
 .contato{
-    background-color: #04C9FF;
-    padding: 10px 15px 10px 15px;
+    display: flex;
+    color: #080D1F; 
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     border-radius: 10px;
-    transition: 0.5s ease-in-out;
-    
+    background-color: #04C9FF;
+    transition: ease-in-out 0.5s;
 }
 
+
+
 .contato:hover{
-    background-color: #37d1fc;
-    box-shadow: 0 0 15px #04C9FF;
+    background-color: #37d1fc ;
+    box-shadow: 0 0 10px #04C9FF;
+    border: solid 2px #04C9FF;
 }
 
 li{
@@ -289,6 +292,7 @@ li{
     align-items: center;
     text-align: center;
     flex-direction: column;
+    justify-content: center;
     padding: 80px;
     box-sizing: border-box;
 }
@@ -614,7 +618,6 @@ input:focus {
     color: #00D9FF;
 }
 
-/* ===== TABLET (até 1024px) ===== */
 @media (max-width: 1024px) {
     .p2 { width: 90%; }
     .caixas { flex-direction: column; height: auto; align-items: center; }
@@ -628,6 +631,7 @@ input:focus {
     .cont { padding: 40px; flex-wrap: wrap; gap: 20px; }
     .txt { width: 90%; font-size: 1.5rem; }
     .container{gap: 30px;}
+    .contato{width: 70px; height: 30px; font-size: 0.7rem;}
 }
 
 @media (max-width: 768px) {
@@ -637,8 +641,7 @@ input:focus {
     .menu ul { gap: 6px; padding-right: 5px; }
     .menu li { display: flex; }
     .menu li a { font-size: 0.68rem; }
-    .contato { padding: 6px 8px;}
-    .contato a { padding: 10px; font-size: 0.68rem;}
+    .contato {font-size: 0.7rem;}
 
     .msg { font-size: 1.8rem; height: auto; padding: 20px 0; }
     .p1 { font-size: 0.65rem; text-align: center; }
@@ -722,7 +725,7 @@ input:focus {
     .menu li { display: flex; }
     .menu li a { font-size: 0.58rem; }
     .contato { padding: 5px 7px; }
-    .contato a { padding: 8px; font-size: 0.58rem; }
+    
 
     .msg { font-size: 1.6rem; }
     .p1 { font-size: 0.6rem; }
