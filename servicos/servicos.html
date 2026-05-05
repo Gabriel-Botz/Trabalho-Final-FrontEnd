@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nossos Serviços - NEXTLAB</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&display=swap"
+    rel="stylesheet" />
+  <style>
+    /* Ajeita cor dos cards e outros para deixar legivel */
+    .cx h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .cx p {
+      color: #b1b1b1 !important;
+      line-height: 1.4;
+    }
+
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .main2 {
+      height: auto !important;
+      min-height: 100vh;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: flex-start !important;
+      align-items: center !important;
+      padding-top: 120px !important;
+    }
+
+    .container2 {
+      margin-bottom: 20px !important;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Configuração dos cards*/
+    .caixas {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+      gap: 20px !important;
+      width: 90% !important;
+      max-width: 1100px !important;
+      margin-top: 0 !important;
+      height: auto !important;
+    }
+    .cx {
+      height: 280px !important;
+      margin: 0 !important;
+      padding: 20px !important;
+    }
+
+    /* Formatação da descrição */
+    .texto-descricao {
+      max-width: 850px;
+      margin: 25px auto !important;
+      font-size: 1.1rem !important;
+      line-height: 1.6 !important;
+      color: #b1b1b1 !important;
+    }
+
+    .texto-descricao strong {
+      color: #00D9FF;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <h1 class="titulo">NEXT<span class="subtitulo">LAB</span></h1>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../sobre/index.html">Sobre</a></li>
+        <li><a href="#" class="cor">Serviços</a></li>
+        <li><a href="../portfolio/index.html">Portifolio</a></li>
+        <span class="contato" style="color: black;"><a target="_blank" href="">Contato</a></span>
+      </ul>
+    </div>
+  </nav>
+  </header>
+
+  <main>
+    <section class="main2">
+      <div class="container2">
+        <p class="p1">NOSSOS SERVIÇOS</p>
+        <h2>Soluções Intuitivas</h2>
+        <p class="texto-descricao">
+          Na <strong>NextLab</strong>, não apenas desenvolvemos software; construímos pontes entre grandes ideias e o
+          sucesso digital.
+          Unimos design centrado no usuário com uma engenharia de software robusta para entregar ecossistemas
+          escaláveis,
+          seguros e preparados para os desafios do amanhã.
+        </p>
+      </div>
+
+      <div class="caixas">
+        <!-- Card 1 - Criação de Chatbots -->
+        <div class="cx">
+          <span class="card-icon">🤖</span>
+          <div class="linha2 software">Chatbots</div>
+          <p>
+            Criação de agentes inteligentes para comércio e captação
+            automática de clientes via IA.
+          </p>
+        </div>
+
+        <!-- Card 2 -Criação de sites -->
+        <div class="cx">
+          <span class="card-icon">💻</span>
+          <div class="linha2 software">Web Design</div>
+          <p>
+            Desenvolvimento de sites modernos e responsivos com foco total em
+            conversão e SEO.
+          </p>
+        </div>
+
+        <!-- Card 3 - Criação sistemas -->
+        <div class="cx">
+          <span class="card-icon">📱</span>
+          <div class="linha2 software">Sistemas</div>
+          <p>
+            Aplicações Web e Mobile (Flutter/C#) personalizadas para otimizar
+            os seus processos.
+          </p>
+        </div>
+
+        <!-- Card 4 - Consultoria em Cloud -->
+        <div class="cx">
+          <span class="card-icon">☁️</span>
+          <div class="linha2 software">Cloud & DevOps</div>
+          <p>
+            Implementação e gestão de infraestrutura escalável utilizando Docker, AWS
+            e Kubernetes para garantir alta disponibilidade.
+          </p>
+        </div>
+
+        <!-- Card 5 - UI/UX Design -->
+        <div class="cx">
+          <span class="card-icon">🎨</span>
+          <div class="linha2 software">UI/UX Design</div>
+          <p>
+            Criação de interfaces modernas e prototipagem focada na experiência do usuário,
+            aliando estética à funcionalidade.
+          </p>
+        </div>
+
+        <!-- Card 6 - Integração de APIs -->
+        <div class="cx">
+          <span class="card-icon">🔗</span>
+          <div class="linha2 software">Integrações</div>
+          <p>
+            Conectamos seu ecossistema digital através de APIs robustas em Node.js e Python
+            para troca de dados segura e eficiente.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="cont-foot">
+      <div class="titulo">NEXT<span class="subtitulo">LAB</span></div>
+      <div class="menu-footer">
+        <a href="/sobre/" class="link-menu texto-pequeno">Sobre</a>
+        <a href="#" class="cor">Serviços</a>
+        <a href="/contato/" class="link-menu texto-pequeno">Contato</a>
+      </div>
+      <p class="saud">&copy; NextLab Agency. SerraTec 2026.01</p>
+    </div>
+  </footer>
+
+  <script src="../main.js"></script>
+</body>
+
+</html>
