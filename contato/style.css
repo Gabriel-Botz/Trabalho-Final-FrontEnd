@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-#meuVideo, .gif-fundo {
+.meuVideo{
     width: 100%;
     height: 100%;
     object-fit: fill; /* Faz o vídeo cobrir a tela como um papel de parede */
