@@ -5,7 +5,6 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
-
 }
 
 a{
@@ -286,8 +285,6 @@ li{
     min-height: 100vh;
     height: auto;
     width: 100%;
-    
-    
 }
 
 .container2{
@@ -302,8 +299,6 @@ li{
     justify-content: center;
     padding: 80px;
     box-sizing: border-box;
-
-    
 }
 
 .container2 h2{
