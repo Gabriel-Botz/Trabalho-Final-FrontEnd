@@ -78,10 +78,12 @@ main{
 .titulo{
     color: white;
     font-size: 1.5rem;
+    font-weight: 800;
 }
 
 .subtitulo{
     color: #00D9FF;
+    font-weight: 800;
 }
 
 .cor{
@@ -299,11 +301,14 @@ li{
     justify-content: center;
     padding: 80px;
     box-sizing: border-box;
+
+    
 }
 
 .container2 h2{
     font-size: 3rem;
     font-weight: 800;
+
 }
 
 .container2 p{
@@ -321,6 +326,7 @@ li{
     height: 200px;
     justify-content: center;
     margin-top: 40px;
+
 }
 
 .cx{
@@ -336,7 +342,9 @@ li{
     padding: 30px;
     position: relative;
     transition: 0.3s ease-in-out;
+
 }
+
 
 .linha1{
     display: flex;
@@ -417,6 +425,7 @@ li{
 .cx2 p{
     font-size: 0.9rem;
     font-weight: 900;
+
     color: #00D9FF;
 }
 
@@ -424,9 +433,11 @@ li{
      display: flex;
     flex-direction: column;
     align-items: center;
+
     min-height: 100vh;
     height: auto;
     width: 100%;
+
 }
 
 .txt{
@@ -448,6 +459,7 @@ li{
     align-items: center;
     justify-content: center;
     margin: 50px;
+
 }
 
 .cl{
@@ -461,11 +473,16 @@ li{
     border: solid #10293D 1px;
     margin: 10px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     color: #95989c;
-    font-size: 1.2rem;
     background-color: #121628;
     transition: 0.3s ease-in-out;
+
+}
+
+.txt-cl{
+    display: flex;
+    font-size: 1rem;
 }
 
 .cl:hover{
@@ -483,6 +500,8 @@ li{
     align-items: center;
     margin-top: 20px;
     margin-right: 250px;
+    
+    
 }
 
 .img-cl{
@@ -503,7 +522,6 @@ li{
     color: gray;
     font-size: 1rem;
 }
-
 .email{
     margin-top: 100px;
     display: flex;
@@ -555,7 +573,6 @@ li{
     justify-content: center;
     padding-left: 20px;
 }
-
 input:focus {
   border-color: #00ffff;
   box-shadow: 0 0 12px #00ffff;
@@ -575,12 +592,10 @@ input:focus {
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
-
 .botao-assinar:hover{
    box-shadow: #00D9FF 0px 0px 15px;
    border: solid 1px #00D9FF;
 }
-
 .footer{
     display: flex;
     flex-direction: row;
@@ -592,7 +607,6 @@ input:focus {
     border-top: solid #10293D 1px;
     margin-top: 100px;
 }
-
 .cont-foot{
     display: flex;
     flex-direction: row;
@@ -606,18 +620,15 @@ input:focus {
     display: flex;
     gap: 20px;
 }
-
 .menu-footer a{
     text-decoration: none;
     color: gray;
     font-weight: 800;
     transition: 0.3s ease-in-out;
 }
-
 .saud{
     color: gray;
 }
-
 .menu-footer a:hover{
     color: #00D9FF;
 }
@@ -734,19 +745,6 @@ input:focus {
     .msg { font-size: 1.6rem; }
     .p1 { font-size: 0.6rem; }
     .p2 { font-size: 0.95rem; width: 95%; }
-
-    .cont { grid-template-columns: repeat(2, 1fr); padding: 15px; gap: 10px; }
-    .item-tec { font-size: 0.8rem; }
-
-    .cx2 { width: calc(100% - 24px); }
-
-    .email { width: 95%; padding: 20px 15px; height: 350px;}
-    .email h2 { font-size: 1.6rem; }
-    .campo { width: 100%; box-sizing: border-box; }
-    .botao-assinar { width: 100%; box-sizing: border-box; }
-
-    .footer{padding-top: 30px;}
-}
 
     .cont { grid-template-columns: repeat(2, 1fr); padding: 15px; gap: 10px; }
     .item-tec { font-size: 0.8rem; }
