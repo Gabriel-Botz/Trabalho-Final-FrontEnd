@@ -1,3 +1,30 @@
+.video-container {
+    position: fixed; /* Fixa o vídeo no fundo da tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca o vídeo atrás de todo o conteúdo */
+    overflow: hidden;
+}
+
+#meuVideo, .gif-fundo {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Faz o vídeo cobrir a tela como um papel de parede */
+}
+
+/* Opcional: Filtro escuro para o vídeo não atrapalhar a leitura do texto */
+.video-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Camada preta com 50% de transparência */
+}
+
 .contatoMeio {
     display: grid; 
 
@@ -32,7 +59,8 @@
     justify-content: start;
     align-items: start;
 
-    padding: 40px;
+    padding: 30px;
+    padding-top: 20px;
 
     background-color: #0e1139;
     border: 1px solid #02b7ff;
