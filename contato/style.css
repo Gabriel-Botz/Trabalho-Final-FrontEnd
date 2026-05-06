@@ -1,20 +1,20 @@
 .video-container {
-    position: fixed; /* Fixa o vídeo no fundo da tela */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Coloca o vídeo atrás de todo o conteúdo */
+    z-index: -1;
     overflow: hidden;
 }
 
 .meuVideo{
     width: 100%;
     height: 100%;
-    object-fit: fill; /* Faz o vídeo cobrir a tela como um papel de parede */
+    object-fit: fill;
 }
 
-/* Opcional: Filtro escuro para o vídeo não atrapalhar a leitura do texto */
+
 .video-container::after {
     content: '';
     position: absolute;
@@ -22,7 +22,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Camada preta com 50% de transparência */
+    background: #00000080; 
 }
 
 .contatoMeio {
