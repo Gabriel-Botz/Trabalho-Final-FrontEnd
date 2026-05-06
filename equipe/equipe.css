@@ -8,11 +8,13 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-background: linear-gradient(120deg, #03a6d3, #080D1F, #03a6d3);
-background-size: 300% 300%;
-animation: waveMove 15s ease-in-out infinite;
-color: #fff;
-font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(120deg, #03a6d3, #080D1F, #03a6d3);
+    background-size: 300% 300%;
+    animation: waveMove 15s ease-in-out infinite;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
 }
 
 @keyframes waveMove {
@@ -27,12 +29,17 @@ background-position: 0% 50%;
 }
 }
 
+.mainEqp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 /* SECTION */
 .team {
-    margin-top: 50px;
     flex-direction: column;
-    height: 100vh;
-    width: 100%;
     display: flex;
     padding: 80px 10%;
     text-align: center;
@@ -49,14 +56,12 @@ margin-bottom: 50px;
 color: #00d4ff;
 }
 
-/* GRID */
 .cards {
 display: grid;
 align-items: center;
 justify-content: center;
 width: 70%;
 grid-template-columns: repeat(3, 1fr);
-
 gap: 25px;
 
 }
