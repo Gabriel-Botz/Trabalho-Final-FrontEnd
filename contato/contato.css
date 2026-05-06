@@ -1,3 +1,7 @@
+main {
+    height: 100dvh;
+}
+
 /* ----- VIDEO DE FUNDO ----- */
 
 .contatoVideo {
@@ -39,8 +43,7 @@
 
     width: 100dvw;
 
-    margin-top: 5rem;
-
+    margin-top: 5.7rem;
 }
 
 /* ----- PAI DO FORMULARIO DA PARTE CENTRAL (ESQUERDA) ----- */
