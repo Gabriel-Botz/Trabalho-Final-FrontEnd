@@ -1,3 +1,5 @@
+/* ----- VIDEO DE FUNDO ----- */
+
 .contatoVideo {
     position: fixed;
     top: 0;
@@ -27,6 +29,8 @@
     background: #00000030;
 }
 
+/* ----- PAI DA SEPARAÇÃO DO BLOCO CENTRAL ----- */
+
 .contatoMeio {
     display: grid; 
 
@@ -39,7 +43,8 @@
 
 }
 
-/* FORMULARIO  */
+/* ----- PAI DO FORMULARIO DA PARTE CENTRAL (ESQUERDA) ----- */
+
 
 .contatoFormu {
     grid-column: 1 / 2;
@@ -58,16 +63,22 @@
     width: 100%;
     height: 90%;
 
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 8dvh;
 
     padding: 30px;
-    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 15px;
 
     background-color: #0e1139;
     border: 1px solid #02b7ff;
     border-radius: 15px;
 }
+
+/* ----- TEXTO SUPERIOR ----- */
+
 
 .cardFormu h2 {
     color: rgb(255, 255, 255);
@@ -79,7 +90,8 @@
     color: #00D9FF;
 }
 
-/* AREA DE ESCRITA */
+/* ----- PARTE DE ESCRITA DO FORMULARIO ----- */
+
 
 .input {
     margin-bottom: 20px;
@@ -116,6 +128,9 @@
     transition: border-color 0.3s;
 }
 
+/* ----- PARTE DE PERSONALIZAÇÃO DO BOTÃO ENVIAR ----- */
+
+
 .btnEnviar {
     width: 90%;
     height: 40px;
@@ -141,9 +156,36 @@
 }
 
 
-/* Texto (parte direita) */
+/* ----- PARTE DIREITA (CARDS DAS REDES SOCIAIS)----- */
 
-/* CORPO GERAL */
+
+/* ----- AREA DOS CARDS DAS REDES SOCIAIS ----- */
+
+.contatoTexto {
+    grid-column: 3 / 4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+/* ----- TITULO ACIMA DOS CARDS ----- */
+
+.contatoTitulo1 {
+    text-align: center;
+    padding: 30px;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.contatoTitulo1:hover{
+    transform: scale(1.05);
+    color: #00D9FF; 
+}
+
+/* ----- PAI DOS CARDS ----- */
 
 .redes {
     display: flex;
@@ -161,42 +203,7 @@
     font-size: 15px;
 }
 
-.contatoTitulo1 {
-    text-align: center;
-    padding: 30px;
-    transition: all 0.3s ease;
-}
-
-/* CARDS DE TEXTO */
-
-.contatoTexto {
-    grid-column: 3 / 4;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-top: 30px;
-    color: white;
-}
-
-.caixaContato {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-
-    padding: 10px;
-    border-radius: 8px;
-}
-
-.textoContato {
-    font-size: 13px;
-    font-weight: bold;
-    color: #999;
-    letter-spacing: 1px;
-    margin-bottom: 4px;
-}
+/* ----- BLOCO CARDS ----- */
 
 .card {
     display: flex;
@@ -217,19 +224,6 @@
     cursor: pointer;
 }
 
-.icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* HOVERS */
-
-.contatoTitulo1:hover{
-    transform: scale(1.05);
-    color: #00D9FF; 
-}
-
 .card:hover {
     border-color: #00D9FF;
     background-color: rgb(25, 30, 100);
@@ -242,8 +236,42 @@
     color: #00D9FF; 
 }
 
+/* ----- ICONES DOS CARDS (BOOTSTRAP (SVG)) ----- */
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 .icon svg{
     height: 40px;
     width: 40px;
 }
+
+/* ----- PERSONALIZAÇÃO DO POSICIONAMENTO DOS TEXTOS DOS CARDS ----- */
+
+.caixaContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.textoContato {
+    font-size: 13px;
+    font-weight: bold;
+    color: #999;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+/* ----- A PERSONALIZAÇÃO DOS LINKS ESTÁ DENTRO DE: redes a ----- */
+
+
+
 
