@@ -103,6 +103,8 @@ main{
     padding: 20px;
     border-bottom: 1px solid #15182B;
     z-index: 1;
+
+    top: 0;
     
 }
 
