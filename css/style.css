@@ -330,7 +330,7 @@ li{
 .cx{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 350px;
     height: 100%;
     border: solid #10293D 1px;
@@ -343,7 +343,6 @@ li{
 
 }
 
-
 .linha1{
     display: flex;
     font-size: 1.7rem;
@@ -353,8 +352,9 @@ li{
 
 .linha2{
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .cx p{
@@ -650,18 +650,18 @@ input:focus {
 @media (max-width: 768px) {
 
     .navbar { justify-content: space-between; padding: 10px 15px; }
-    .menu { margin-right: 20px;}
-    .menu ul { gap: 6px; padding-right: 5px; }
+    .menu {margin-right: 20px;}
+    .menu ul {gap: 6px; padding-right: 5px; }
     .menu li { display: flex; }
-    .menu li a { font-size: 0.68rem; }
+    .menu li a {font-size: 0.68rem;}
     .contato {font-size: 0.7rem;}
 
-    .msg { font-size: 1.8rem; height: auto; padding: 20px 0; }
-    .p1 { font-size: 0.65rem; text-align: center; }
-    .p2 { width: 90%; font-size: 1rem; }
-    .botoes { flex-direction: column; width: 90%; height: auto; align-items: center; }
-    .bt1, .bt2 { width: 100%; justify-content: center; }
-    .container { width: 90%; height: auto; gap: 15px; }
+    .msg {font-size: 1.8rem; height: auto; padding: 20px 0;}
+    .p1 {font-size: 0.65rem; text-align: center; }
+    .p2 {width: 90%; font-size: 1rem; }
+    .botoes {flex-direction: column; width: 90%; height: auto; align-items: center;}
+    .bt1, .bt2 {width: 100%; justify-content: center;}
+    .container {width: 90%; height: auto; gap: 15px;}
 
     .cont {
         display: grid;
@@ -732,8 +732,8 @@ input:focus {
 
 @media (max-width: 430px) {
 
-    .navbar { padding: 10px 8px;}
-    .menu { margin-right: 20px;}
+    .navbar {padding: 10px 8px;}
+    .menu {margin-right: 0px;}
     .menu ul { gap: 4px; padding-right: 2px; }
     .menu li { display: flex; }
     .menu li a { font-size: 0.58rem; }
